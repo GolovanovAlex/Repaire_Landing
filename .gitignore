@@ -1,0 +1,6 @@
+temp/
+client/
+assets/
+node_modules/
+info.md
+package-lock.json

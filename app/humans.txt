@@ -1,0 +1,12 @@
+/* TEAM */
+Your title: Alex Golovanov
+Website: http://alexgolovanov.ru
+Email: Golovanov.a.a@yandex.ru
+Location: Ryazan, Russia.
+
+/* THANKS */ 
+FIGMA | Макеты для верстки.
+https://t.me/s/FigmaToHTML
+
+/* SITE */ 
+Last update: 2023/05/12.
