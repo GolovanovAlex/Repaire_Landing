@@ -64,7 +64,9 @@
   background-color: $color_bg_dark;
   &__swiper-text {
     position: absolute;
-    top: -20px;
+    top: 0;
+    left: 40%;
+    text-align: center;
   }
   &__name {
     display: inline-block;
