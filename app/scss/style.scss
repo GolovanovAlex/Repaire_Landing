@@ -58,16 +58,26 @@
 }
 // ---- ---- projects ---- ---- //
 .projects {
+  position: relative;
   padding-top: 107px;
   padding-bottom: 45px;
   background-color: $color_bg_dark;
-  &__box {
-  }
-  &__item {
+  &__swiper-text {
+    position: absolute;
+    top: -20px;
   }
   &__name {
+    display: inline-block;
+    font-family: 'Yeseva One', cursive;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: $color_t_opacity;
+    margin-bottom: 50px;
+    cursor: pointer;
   }
-  &__item-box {
+  &__item {
     display: flex;
     justify-content: center;
     gap: 50px;
@@ -115,6 +125,11 @@
   }
   &__img {
     width: 100%;
+  }
+}
+.swiper-slide-thumb-active {
+  .projects__name {
+    color: $color_t_accent;
   }
 }
 // ---- ---- control ---- ---- //
