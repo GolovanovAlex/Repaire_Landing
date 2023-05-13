@@ -1,17 +1,16 @@
 // ---- ---- color ---- ---- //
-// $color_white: #ffffff;
-// $color_t_main: #35312e;
-// $color_t_dark: #4f463f;
-// $color_t_grey: #6e6259;
-// $color_t_info: #6e635a;
-// $color_t_accent: #670a18;
+$color_white: #ffffff;
+$color_t_main: #181818;
+$color_t_grey: #363636;
+$color_t_info: #959595;
+$color_t_accent: #e3b873;
+$color_bg_dark: #131313;
+$color_bg_accent: #e3b873;
 // $color_t_footer: rgba(245, 241, 233, 0.6);
 // $color_t_light: #fcfaf6;
 // $color_t_footer-copy: rgba(252, 250, 246, 0.5);
 // $color_bg_light: #f0eedd;
 // $color_bg: #f5f1e9;
-// $color_bg_dark: #6c674d;
-// $color_bg_accent: #807c62;
 // $color_bg_button: #d37657;
 // $color_bg_slider: #fbf6ea;
 // ---- ---- main ---- ---- //
@@ -25,23 +24,43 @@ body {
   width: 100%;
   min-width: 300px;
   overflow-x: hidden;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 14px;
   font-weight: 400;
   color: $color_t_main;
 }
 .container {
-  max-width: 1460px;
+  max-width: 1276px;
   padding: 0 10px;
   margin: 0 auto;
 }
 // ---- ---- Title ---- ---- //
 .title {
   &__h1 {
-    font-size: 50px;
+    font-family: 'Yeseva One', cursive;
+    font-size: 40px;
     font-weight: 400;
-    line-height: 72px;
-    letter-spacing: 1px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: $color_white;
+  }
+  &__h3 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: $color_t_accent;
+    letter-spacing: -0.07em;
+  }
+  &__h4 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: $color_white;
+    margin-bottom: 12px;
   }
 }
 // ---- ---- menu ---- ---- //
@@ -49,12 +68,71 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 25px 48px;
+  padding: 24px 0 22px;
+  color: $color_white;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 15px;
+  text-transform: uppercase;
+  &__logo {
+    color: $color_t_accent;
+    margin-right: 95px;
+  }
+  &__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 47px;
+  }
+  &__item {
+    &:hover {
+      color: $color_t_accent;
+    }
+  }
+  &__link {
+    &--active {
+      color: $color_t_accent;
+    }
+  }
+  &__phone {
+    margin-right: 45px;
+    margin-left: auto;
+    color: $color_t_accent;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  &__btn {
+    text-transform: uppercase;
+    background-color: $color_bg_accent;
+    color: $color_white;
+    padding: 13px 33px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 .menu {
 }
 // ---- ---- btn ---- ---- //
 .button {
+}
+// ---- ---- form ---- ---- //
+.form {
+  &__lable {
+  }
+  &__name {
+  }
+  &__phone {
+  }
+  &__email {
+  }
+  &__checkbox {
+  }
+  &__checkbox-agree {
+  }
+  &__btn {
+  }
 }
 // ---- ---- footer ---- ---- //
 .footer {

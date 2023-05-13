@@ -1,22 +1,222 @@
 // ---- ---- fonts ---- ---- //
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&family=Yeseva+One&display=swap');
 // ---- ---- reset ---- ---- //
 @import 'swiper-bundle.min.scss';
 @import 'normalize.scss';
 @import 'myreset.scss';
 @import 'base.scss';
 @import 'global.scss';
-// ---- ---- hero ---- ---- //
+// ---- ---- header ---- ---- //
 .header {
+  background-color: $color_bg_dark;
 }
 // ---- ---- hero ---- ---- //
-// ---- ---- hero ---- ---- //
-// ---- ---- hero ---- ---- //
-// ---- ---- hero ---- ---- //
-// ---- ---- hero ---- ---- //
-// ---- ---- hero ---- ---- //
-// ---- ---- hero ---- ---- //
-// ---- ---- hero ---- ---- //
+.hero {
+  background-color: $color_bg_dark;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 208px;
+  min-height: calc(100vh - 83px);
+  &__box {
+    max-width: 550px;
+    margin-left: 40px;
+  }
+  &__title {
+    padding-top: 194px;
+    margin-bottom: 20px;
+  }
+  &__title-accent {
+    color: $color_t_accent;
+  }
+  &__info {
+    font-size: 22px;
+    line-height: 36px;
+    color: $color_white;
+    margin-bottom: 20px;
+  }
+  &__btn {
+    display: inline-block;
+    width: 207px;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 15px;
+    font-style: italic;
+    color: $color_white;
+    background-color: transparent;
+    border: 1px solid $color_white;
+    padding: 19px 20px;
+    margin-right: 20px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  &__btn--active {
+    background-color: $color_bg_accent;
+    border: 1px solid $color_bg_accent;
+  }
+}
+// ---- ---- projects ---- ---- //
+.projects {
+  padding-top: 107px;
+  padding-bottom: 45px;
+  background-color: $color_bg_dark;
+  &__box {
+  }
+  &__item {
+  }
+  &__name {
+  }
+  &__item-box {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+  &__left {
+    max-width: 442px;
+  }
+  &__title {
+    max-width: 250px;
+    margin-bottom: 34px;
+  }
+  &__text {
+    font-size: 14px;
+    line-height: 27px;
+    color: $color_white;
+    margin-bottom: 42px;
+  }
+  &__info-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  &__info-text {
+    max-width: 175px;
+    font-family: 'Yeseva One', cursive;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: $color_t_accent;
+    margin-bottom: 34px;
+  }
+  &__info-data {
+    display: block;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    text-transform: none;
+    color: $color_white;
+    margin-top: 9px;
+  }
+  &__right {
+  }
+  &__img-box {
+  }
+  &__img {
+    width: 100%;
+  }
+}
+// ---- ---- control ---- ---- //
+.control {
+  background-color: $color_bg_dark;
+  padding-top: 45px;
+  &__top {
+    text-align: center;
+  }
+  &__title {
+  }
+  &__icon-box {
+    margin-bottom: 31px;
+  }
+  &__icon {
+  }
+  &__bottom {
+  }
+  &__video-box {
+  }
+  &__video-img {
+  }
+  &__video-play {
+  }
+  &__text {
+  }
+  &__form {
+  }
+  &__form-lable {
+  }
+  &__form-name {
+  }
+  &__form-phone {
+  }
+  &__form-btn {
+  }
+  &__form-checkbox {
+  }
+  &__form-agree {
+  }
+}
+// ---- ---- types ---- ---- //
+.types {
+  &__title.title.title {
+  }
+  &__icon-box {
+  }
+  &__icon {
+  }
+  &__box {
+  }
+  &__item {
+  }
+  &__img-box {
+  }
+  &__img {
+  }
+  &__info-box {
+  }
+  &__item-title {
+  }
+  &__list {
+  }
+  &__price {
+  }
+}
+// ---- ---- request ---- ---- //
+.request {
+  &__left {
+  }
+  &__list {
+  }
+  &__item {
+  }
+  &__form-box {
+  }
+  &__title {
+  }
+  &__form {
+  }
+  &__form-lable {
+  }
+  &__form-name {
+  }
+  &__form-phone {
+  }
+  &__form-email {
+  }
+  &__form-checkbox {
+  }
+  &__form-agree {
+  }
+  &__form-btn {
+  }
+  &__images-box {
+  }
+  &__images {
+  }
+  &__images-text {
+  }
+}
+// ---- ---- ... ---- ---- //
 
 // ---- ---- media ---- ---- //
 @import 'media.scss';
