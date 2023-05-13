@@ -63,9 +63,9 @@
   padding-bottom: 45px;
   background-color: $color_bg_dark;
   &__swiper-text {
-    position: absolute;
-    top: 0;
-    left: 40%;
+    // position: absolute;
+    // top: 0;
+    left: 30%;
     text-align: center;
   }
   &__name {
@@ -128,6 +128,34 @@
   &__img {
     width: 100%;
   }
+}
+.swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+  top: auto;
+  bottom: 0;
+  right: auto;
+}
+.swiper-button-next {
+  left: 205px;
+}
+.swiper-button-prev {
+  left: 40px;
+}
+
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  position: absolute;
+  bottom: 0;
+  right: auto;
+  left: 100px;
+  width: 100px;
+}
+.swiper-pagination-bullet {
+  background-color: $color_t_opacity;
+  opacity: 1;
+}
+.swiper-pagination-bullet-active {
+  background-color: $color_white;
 }
 .swiper-slide-thumb-active {
   .projects__name {
