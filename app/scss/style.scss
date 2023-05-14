@@ -121,10 +121,6 @@
     color: $color_white;
     margin-top: 9px;
   }
-  &__right {
-  }
-  &__img-box {
-  }
   &__img {
     width: 100%;
   }
@@ -142,7 +138,6 @@
 .swiper-button-prev {
   left: 40px;
 }
-
 .swiper-pagination-bullets.swiper-pagination-horizontal {
   position: absolute;
   bottom: 0;
@@ -165,6 +160,7 @@
 }
 // ---- ---- control ---- ---- //
 .control {
+  position: relative;
   background-color: $color_bg_dark;
   padding-top: 45px;
   &__top {
