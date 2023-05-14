@@ -176,10 +176,28 @@
   &__bottom {
   }
   &__video-box {
+    position: relative;
+    max-width: 817px;
+    margin: 0 auto;
   }
   &__video-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    width: 100%;
+    cursor: pointer;
   }
   &__video-play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: inline-block;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    &:hover {
+      transform: translate(-50%, -50%) scale(1.1);
+    }
   }
   &__text {
   }
