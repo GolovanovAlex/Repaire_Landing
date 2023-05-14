@@ -179,6 +179,9 @@
     position: relative;
     max-width: 817px;
     margin: 0 auto;
+    &:hover .control__video-play {
+      transform: translate(-50%, -50%) scale(1.1);
+    }
   }
   &__video-img {
     display: flex;
@@ -194,6 +197,7 @@
     left: 50%;
     display: inline-block;
     transform: translate(-50%, -50%);
+    transition: transform 0.3s ease;
     cursor: pointer;
     &:hover {
       transform: translate(-50%, -50%) scale(1.1);
