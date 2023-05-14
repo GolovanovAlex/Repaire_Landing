@@ -59,21 +59,21 @@
 // ---- ---- projects ---- ---- //
 .projects {
   position: relative;
-  padding-top: 107px;
+  padding-top: 95px;
   padding-bottom: 45px;
   background-color: $color_bg_dark;
   &__swiper-text {
-    // position: absolute;
-    // top: 0;
-    left: 30%;
+    width: 650px;
+    left: 17%;
     text-align: center;
+    gap: 50px;
   }
   &__name {
     display: inline-block;
     font-family: 'Yeseva One', cursive;
     font-size: 14px;
     font-weight: 400;
-    line-height: 19px;
+    line-height: 30px;
     text-transform: uppercase;
     color: $color_t_opacity;
     margin-bottom: 50px;
@@ -160,6 +160,7 @@
 .swiper-slide-thumb-active {
   .projects__name {
     color: $color_t_accent;
+    border-bottom: 1px solid $color_bg_accent;
   }
 }
 // ---- ---- control ---- ---- //
