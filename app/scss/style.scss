@@ -167,12 +167,8 @@
     text-align: center;
     margin-bottom: 270px;
   }
-  &__title {
-  }
   &__icon-box {
     margin-bottom: 31px;
-  }
-  &__icon {
   }
   &__bottom {
     position: relative;
@@ -231,41 +227,97 @@
     }
   }
   &__form {
+    margin-bottom: 47px;
   }
   &__form-lable {
   }
   &__form-name {
+    border: none;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+    padding: 7px 0 8px;
+    &::placeholder {
+      font-family: 'Nunito Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 23px;
+      color: #363636;
+    }
   }
+
   &__form-phone {
+    border: none;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+    padding: 7px 0 8px;
+    &::placeholder {
+      font-family: 'Nunito Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 23px;
+      color: #363636;
+    }
   }
   &__form-btn {
+    width: 100%;
+    max-width: 200px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $color_white;
+    background-color: $color_bg_accent;
+    padding: 15px 20px 9px;
   }
   &__form-checkbox {
+    &:checked {
+    }
   }
   &__form-agree {
   }
 }
 // ---- ---- types ---- ---- //
 .types {
-  &__title.title.title {
+  padding-top: 100px;
+  &__title {
+    text-align: center;
+    color: $color_t_main;
   }
   &__icon-box {
-  }
-  &__icon {
+    text-align: center;
+    margin-bottom: 31px;
   }
   &__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
   }
   &__item {
+    position: relative;
   }
   &__img-box {
   }
   &__img {
+    width: 100%;
   }
   &__info-box {
+    background-color: $color_white;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+    padding: 25px 34px 49px;
   }
   &__item-title {
+    font-family: 'Yeseva One';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: $color_t_grey;
   }
   &__list {
+    font-size: 13px;
+    line-height: 27px;
+    color: $color_t_info;
   }
   &__price {
   }
