@@ -294,7 +294,7 @@
     align-items: center;
     gap: 30px;
   }
-  &__item {
+  &__item-block {
     position: relative;
   }
   &__img-box {
@@ -318,6 +318,10 @@
     font-size: 13px;
     line-height: 27px;
     color: $color_t_info;
+    list-style: disc;
+    padding-left: 17px;
+  }
+  &__item {
   }
   &__price {
     width: 100%;
