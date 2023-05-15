@@ -320,6 +320,16 @@
     color: $color_t_info;
   }
   &__price {
+    width: 100%;
+    max-width: 228px;
+    font-family: 'Yeseva One';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: $color_white;
+    background-color: $color_bg_accent;
+    padding: 17px;
   }
 }
 // ---- ---- request ---- ---- //
