@@ -137,6 +137,13 @@ body {
     padding: 8px 5px;
     background-color: transparent;
     outline: none;
+    &--white {
+      width: 100%;
+      max-width: 100%;
+      color: $color_white;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+      padding: 8px 5px;
+    }
     &::placeholder {
       font-family: 'Nunito Sans';
       font-style: normal;
@@ -145,10 +152,14 @@ body {
       line-height: 23px;
       color: #363636;
     }
-  }
-  &__phone {
-  }
-  &__email {
+    &--white::placeholder {
+      font-family: 'Nunito Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 23px;
+      color: $color_white;
+    }
   }
   &__checkbox-box {
     display: flex;

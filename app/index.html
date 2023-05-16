@@ -453,40 +453,52 @@
               Leave a request for free departure of the measurer
             </p>
             <form class="request__form">
-              <label for="name_client" class="request__form-lable form__lable"
-                >Name</label
-              >
-              <input
-                class="request__form-name form__name"
-                type="text"
-                name=""
-                id="name_client"
-                placeholder="What is your name:"
-                autocomplete="off"
-                required
-              />
-              <label for="phone_client" class="request__form-lable form__lable">
-                Phone</label
-              >
-              <input
-                class="request__form-phone form__phone"
-                type="tel"
-                placeholder="Your phone number:"
-                id="phone_client"
-                autocomplete="off"
-                required
-              />
-              <label for="phone_client" class="request__form-lable form__lable">
-                Phone</label
-              >
-              <input
-                class="request__form-email form__email"
-                type="email"
-                placeholder="Your email"
-                id="email_client"
-                autocomplete="off"
-                required
-              />
+              <div class="form__input-box request__input-box">
+                <label for="name_client" class="request__form-lable form__lable"
+                  >Name</label
+                >
+                <input
+                  class="request__form-name form__input form__input--white"
+                  type="text"
+                  name=""
+                  id="name_client"
+                  placeholder="What is your name:"
+                  autocomplete="off"
+                  required
+                />
+              </div>
+              <div class="request__input-box form__input-box">
+                <label
+                  for="phone_client"
+                  class="request__form-lable form__lable"
+                >
+                  Phone</label
+                >
+                <input
+                  class="request__form-phone form__input form__input--white"
+                  type="tel"
+                  placeholder="Your phone number:"
+                  id="phone_client"
+                  autocomplete="off"
+                  required
+                />
+              </div>
+              <div class="form__input-box request__input-box">
+                <label
+                  for="phone_client"
+                  class="request__form-lable form__lable"
+                >
+                  Email</label
+                >
+                <input
+                  class="request__form-email form__input form__input--white"
+                  type="email"
+                  placeholder="Your email"
+                  id="email_client"
+                  autocomplete="off"
+                  required
+                />
+              </div>
               <input
                 class="request__form-checkbox form__checkbox"
                 type="checkbox"
