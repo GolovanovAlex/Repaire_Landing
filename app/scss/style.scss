@@ -307,10 +307,47 @@
 // ---- ---- request ---- ---- //
 .request {
   &__left {
+    max-width: 700px;
+    background-image: url(../images/bg/bg_contact.png);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 117px;
   }
   &__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 102px;
+    padding-bottom: 54px;
+    margin-left: 304px;
+    color: $color_t_grey;
+    list-style: none;
+    counter-reset: item;
   }
   &__item {
+    position: relative;
+    max-width: 320px;
+    &::before {
+      content: '0' counters(item, '');
+      counter-increment: item;
+      position: absolute;
+      top: -17px;
+      left: -19%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 55px;
+      height: 55px;
+      font-family: 'Yeseva One';
+      font-size: 18px;
+      line-height: 25px;
+      color: $color_white;
+      background-color: $color_bg_accent;
+      border-radius: 50%;
+      border: 8px solid #ffffff;
+      box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+    }
   }
   &__form-box {
   }
