@@ -181,6 +181,7 @@
     transform: translate(-50%, -55%);
     max-width: 817px;
     margin: 0 auto;
+    z-index: 1;
     &:hover .control__video-play {
       transform: translate(-50%, -50%) scale(1.1);
     }
@@ -227,59 +228,19 @@
     }
   }
   &__form {
-    margin-bottom: 47px;
+    margin-bottom: 42px;
   }
-  &__form-lable {
-  }
-  &__form-name {
-    border: none;
-    border-bottom: 1px solid rgba(54, 54, 54, 0.3);
-    padding: 7px 0 8px;
-    &::placeholder {
-      font-family: 'Nunito Sans';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 23px;
-      color: #363636;
-    }
-  }
-
-  &__form-phone {
-    border: none;
-    border-bottom: 1px solid rgba(54, 54, 54, 0.3);
-    padding: 7px 0 8px;
-    &::placeholder {
-      font-family: 'Nunito Sans';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 23px;
-      color: #363636;
-    }
-  }
-  &__form-btn {
-    width: 100%;
-    max-width: 200px;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 27px;
-    text-align: center;
-    text-transform: uppercase;
-    color: $color_white;
-    background-color: $color_bg_accent;
-    padding: 15px 20px 9px;
-  }
-  &__form-checkbox {
-    &:checked {
-    }
-  }
-  &__form-agree {
+  &__form-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+    margin-bottom: 37px;
   }
 }
 // ---- ---- types ---- ---- //
 .types {
-  padding-top: 100px;
+  padding-top: 95px;
   &__title {
     text-align: center;
     color: $color_t_main;
