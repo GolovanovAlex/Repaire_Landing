@@ -308,7 +308,7 @@
 .request {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
   gap: 50px;
   &__left {
     max-width: 700px;
@@ -358,9 +358,11 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 100%;
     max-width: 506px;
     background-color: $color_bg_dark;
     padding: 28px 49px 27px;
+    margin-bottom: 39px;
   }
   &__title {
     max-width: 250px;
@@ -385,28 +387,27 @@
     margin-bottom: 7px;
     color: rgba(255, 255, 255, 0.5);
   }
-
-  &__form-name {
-  }
-  &__form-phone {
-  }
-  &__form-email {
-  }
-  &__form-checkbox {
-  }
   &__form-agree {
+    padding-left: 7px;
   }
   &__form-btn {
     width: 100%;
     max-width: 213px;
-    margin-top: 39px;
     padding: 15px 21px;
+    margin: 39px 0 0 48%;
   }
   &__images-box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
   }
   &__images {
   }
   &__images-text {
+    max-width: 220px;
+    font-size: 18px;
+    line-height: 26px;
+    color: $color_t_accent;
   }
 }
 // ---- ---- ... ---- ---- //
