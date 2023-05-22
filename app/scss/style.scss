@@ -565,15 +565,113 @@
   }
   &__background {
     position: absolute;
+    bottom: -380px;
     width: 50%;
     height: 505px;
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: -1;
     &--right {
       right: 0;
     }
   }
 }
+// ---- ---- contact ---- ---- //
+.contact {
+  position: relative;
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 274px;
+  &__adress {
+    max-width: 590px;
+    font-family: 'Yeseva One';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $color_t_accent;
+    margin: 0 auto;
+    margin-bottom: 26px;
+  }
+  &__phone {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  &__media-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 43px;
+  }
+  &__map-box {
+    text-align: center;
+  }
+  &__map {
+    width: 100%;
+    max-width: 925px;
+    margin-bottom: 65px;
+  }
+}
+// ---- ---- question form ---- ---- //
+.question {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 883px;
+  background-color: $color_t_main;
+  padding: 34px;
+  &__form-box {
+  }
+  &__form-title {
+    font-family: 'Yeseva One';
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $color_white;
+    margin-bottom: 45px;
+  }
+  &__form {
+    max-width: 520px;
+    margin: 0 auto;
+  }
+  &__input-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 48px;
+  }
+  &__form-lable {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  &__form-question {
+    margin-bottom: 46px;
+  }
+  &__checkbox-box {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  &__form-agree {
+    color: $color_white;
+  }
+  &__form-btn {
+    display: block;
+    margin: 0 auto;
+  }
+}
+// ---- ---- footer ---- ---- //
+.footer {
+  background-color: $color_t_main;
+  padding: 24px 0;
+}
+
 // ---- ---- media ---- ---- //
 @import 'media.scss';

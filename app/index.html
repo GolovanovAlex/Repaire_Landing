@@ -720,42 +720,44 @@
           style="background-image: url(images/bg/bg_client_2.png)"
         ></div>
       </section>
-      <div class="contact">
-        <div class="questions">
+      <div class="contact" style="background-image: url(images/bg/bg_map2.png)">
+        <div class="question">
           <div class="question__form-box">
             <p class="question__form-title">have any questions?</p>
             <form class="question__form">
-              <div class="form__input-box question__input-box">
-                <label
-                  for="name_client-question"
-                  class="question__form-lable form__lable"
-                  >Name</label
-                >
-                <input
-                  class="question__form-name form__input form__input--white"
-                  type="text"
-                  name=""
-                  id="name_client-question"
-                  placeholder="What is your name:"
-                  autocomplete="off"
-                  required
-                />
-              </div>
-              <div class="question__input-box form__input-box">
-                <label
-                  for="phone_client-question"
-                  class="question__form-lable form__lable"
-                >
-                  Phone</label
-                >
-                <input
-                  class="request__form-phone form__input form__input--white"
-                  type="tel"
-                  placeholder="Your phone number:"
-                  id="phone_client-question"
-                  autocomplete="off"
-                  required
-                />
+              <div class="question__input-wrap">
+                <div class="form__input-box question__input-box">
+                  <label
+                    for="name_client-question"
+                    class="question__form-lable form__lable"
+                    >Name</label
+                  >
+                  <input
+                    class="question__form-name form__input form__input--white"
+                    type="text"
+                    name=""
+                    id="name_client-question"
+                    placeholder="What is your name:"
+                    autocomplete="off"
+                    required
+                  />
+                </div>
+                <div class="question__input-box form__input-box">
+                  <label
+                    for="phone_client-question"
+                    class="question__form-lable form__lable"
+                  >
+                    Phone</label
+                  >
+                  <input
+                    class="question__form-phone form__input form__input--white"
+                    type="tel"
+                    placeholder="Your phone number:"
+                    id="phone_client-question"
+                    autocomplete="off"
+                    required
+                  />
+                </div>
               </div>
               <div class="form__input-box question__input-box">
                 <label
@@ -765,57 +767,59 @@
                   Question</label
                 >
                 <input
-                  class="question__form-email form__input form__input--white"
-                  type="email"
+                  class="question__form-question form__input form__input--white"
+                  type="text"
                   placeholder="I want to know:"
                   id="question_client"
                   autocomplete="off"
                   required
                 />
               </div>
-              <input
-                class="question__form-checkbox form__checkbox"
-                type="checkbox"
-                id="checkbox-question"
-              />
-              <label
-                class="question__form-agree form__checkbox-agree"
-                for="checkbox-question"
-                >I agree to the processing of personal data</label
-              >
+              <div class="question__checkbox-box">
+                <input
+                  class="question__form-checkbox form__checkbox"
+                  type="checkbox"
+                  id="checkbox-question"
+                />
+                <label
+                  class="question__form-agree form__checkbox-agree"
+                  for="checkbox-question"
+                  >I agree to the processing of personal data</label
+                >
+              </div>
               <button class="question__form-btn form__btn" type="submit">
                 Submit
               </button>
             </form>
           </div>
-          <div class="container">
-            <div class="contact__adress-box">
-              <p class="contact__adress">
-                Rostov-on-Don, Nansen St., 239 Shopping Center Decorum Tel
-                <a class="contact__phone" href="tel:+79287683229"
-                  >+7 (928) 768 32 29</a
-                >
-              </p>
-              <div class="contact__media-box">
-                <a class="contact__media-link" href="#">
-                  <img
-                    class="contact__media-img"
-                    src="images/icon/email.svg"
-                    alt="Email"
-                  />
-                </a>
-                <a class="contact__media-link" href="#">
-                  <img
-                    class="contact__media-img"
-                    src="images/icon/insta.svg"
-                    alt="Instagram"
-                  />
-                </a>
-              </div>
+        </div>
+        <div class="container">
+          <div class="contact__adress-box">
+            <p class="contact__adress">
+              Rostov-on-Don, Nansen St., 239 Shopping Center Decorum Tel
+              <a class="contact__phone" href="tel:+79287683229"
+                >+7 (928) 768 32 29</a
+              >
+            </p>
+            <div class="contact__media-box">
+              <a class="contact__media-link" href="#">
+                <img
+                  class="contact__media-img"
+                  src="images/icon/email.svg"
+                  alt="Email"
+                />
+              </a>
+              <a class="contact__media-link" href="#">
+                <img
+                  class="contact__media-img"
+                  src="images/icon/insta.svg"
+                  alt="Instagram"
+                />
+              </a>
             </div>
-            <div class="contact__map-box">
-              <img class="contact__map" src="images/bg/map.jpg" alt="Map" />
-            </div>
+          </div>
+          <div class="contact__map-box">
+            <img class="contact__map" src="images/bg/map.jpg" alt="Map" />
           </div>
         </div>
       </div>
