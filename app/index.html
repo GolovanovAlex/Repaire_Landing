@@ -721,8 +721,133 @@
         ></div>
       </section>
       <div class="contact">
-        <div class="questions"></div>
+        <div class="questions">
+          <div class="question__form-box">
+            <p class="question__form-title">have any questions?</p>
+            <form class="question__form">
+              <div class="form__input-box question__input-box">
+                <label
+                  for="name_client-question"
+                  class="question__form-lable form__lable"
+                  >Name</label
+                >
+                <input
+                  class="question__form-name form__input form__input--white"
+                  type="text"
+                  name=""
+                  id="name_client-question"
+                  placeholder="What is your name:"
+                  autocomplete="off"
+                  required
+                />
+              </div>
+              <div class="question__input-box form__input-box">
+                <label
+                  for="phone_client-question"
+                  class="question__form-lable form__lable"
+                >
+                  Phone</label
+                >
+                <input
+                  class="request__form-phone form__input form__input--white"
+                  type="tel"
+                  placeholder="Your phone number:"
+                  id="phone_client-question"
+                  autocomplete="off"
+                  required
+                />
+              </div>
+              <div class="form__input-box question__input-box">
+                <label
+                  for="question_client"
+                  class="question__form-lable form__lable"
+                >
+                  Question</label
+                >
+                <input
+                  class="question__form-email form__input form__input--white"
+                  type="email"
+                  placeholder="I want to know:"
+                  id="question_client"
+                  autocomplete="off"
+                  required
+                />
+              </div>
+              <input
+                class="question__form-checkbox form__checkbox"
+                type="checkbox"
+                id="checkbox-question"
+              />
+              <label
+                class="question__form-agree form__checkbox-agree"
+                for="checkbox-question"
+                >I agree to the processing of personal data</label
+              >
+              <button class="question__form-btn form__btn" type="submit">
+                Submit
+              </button>
+            </form>
+          </div>
+          <div class="container">
+            <div class="contact__adress-box">
+              <p class="contact__adress">
+                Rostov-on-Don, Nansen St., 239 Shopping Center Decorum Tel
+                <a class="contact__phone" href="tel:+79287683229"
+                  >+7 (928) 768 32 29</a
+                >
+              </p>
+              <div class="contact__media-box">
+                <a class="contact__media-link" href="#">
+                  <img
+                    class="contact__media-img"
+                    src="images/icon/email.svg"
+                    alt="Email"
+                  />
+                </a>
+                <a class="contact__media-link" href="#">
+                  <img
+                    class="contact__media-img"
+                    src="images/icon/insta.svg"
+                    alt="Instagram"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="contact__map-box">
+              <img class="contact__map" src="images/bg/map.jpg" alt="Map" />
+            </div>
+          </div>
+        </div>
       </div>
+      <footer class="footer">
+        <div class="container">
+          <div class="nav">
+            <a class="nav__logo" href="#">IC "Repair Design Project"</a>
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a class="nav__link nav__link--active" href="#home">Home</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#projects">Projects</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#measurement">Measurement</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#team">Team</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#reviews">reviews</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#contacts">contacts</a>
+              </li>
+            </ul>
+            <a class="nav__phone" href="tel:+79287683293">+7 (928) 768-32-39</a>
+            <button class="nav__btn">Request a call</button>
+          </div>
+        </div>
+      </footer>
     </div>
 
     <script src="js/swiper-bundle.min.js"></script>
