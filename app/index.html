@@ -92,6 +92,14 @@
       </section>
       <div class="projects">
         <div class="container">
+          <div class="projects__mobile-box">
+            <h3 class="title title__h3 projects__title">Completed projects</h3>
+            <p class="projects__text">
+              Only a small part of the work performed by our company is
+              presented on the site. For 14 years on in the construction market
+              we have made happy more than 1000 families
+            </p>
+          </div>
           <div class="projects__box">
             <div thumbsSlider="" class="swiper projects__swiper-text">
               <div class="swiper-wrapper">
@@ -251,13 +259,23 @@
                 </div>
               </div>
               <img
-                class="swiper-button-next"
+                class="swiper-button-next swiper-button-next--web"
                 src="images/icon/arrow_right.svg"
                 alt="arrow"
               />
               <img
-                class="swiper-button-prev"
+                class="swiper-button-prev swiper-button-prev--web"
                 src="images/icon/arrow_left.svg"
+                alt="arrow"
+              />
+              <img
+                class="swiper-button-next swiper-button-next--mobile"
+                src="images/icon/arrow_right_mobile.svg"
+                alt="arrow"
+              />
+              <img
+                class="swiper-button-prev swiper-button-prev--mobile"
+                src="images/icon/arrow_left_mobile.svg"
                 alt="arrow"
               />
               <div class="swiper-pagination"></div>
@@ -334,11 +352,21 @@
                     required
                   />
                 </div>
+                <div class="form__checkbox-box form__checkbox--mobile">
+                  <input
+                    class="control__form-checkbox form__checkbox"
+                    type="checkbox"
+                    id="checkbox_mobile"
+                  />
+                  <label class="control__form-agree" for="checkbox_mobile"
+                    >I agree to the processing of personal data</label
+                  >
+                </div>
                 <button class="control__form-btn form__btn" type="submit">
                   submit
                 </button>
               </div>
-              <div class="form__checkbox-box">
+              <div class="form__checkbox-box form__checkbox--web">
                 <input
                   class="control__form-checkbox form__checkbox"
                   type="checkbox"
@@ -432,7 +460,7 @@
           </div>
         </div>
       </section>
-      <div class="request">
+      <!-- <div class="request">
         <div class="container--wide">
           <div class="request__left">
             <ol class="request__list">
@@ -528,8 +556,8 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="gallery">
+      </div> -->
+      <!-- <div class="gallery">
         <div class="container">
           <div class="gallery__box">
             <div class="gallery__left">
@@ -569,8 +597,8 @@
             </div>
           </div>
         </div>
-      </div>
-      <section class="clients">
+      </div> -->
+      <!-- <section class="clients">
         <div class="container">
           <div class="clients__top">
             <h4 class="clients__title title title__h4">our clients</h4>
@@ -723,8 +751,8 @@
           class="clients__background clients__background--right"
           style="background-image: url(images/bg/bg_client_2.png)"
         ></div>
-      </section>
-      <div class="contact" style="background-image: url(images/bg/bg_map2.png)">
+      </section> -->
+      <!-- <div class="contact" style="background-image: url(images/bg/bg_map2.png)">
         <div class="question">
           <div class="question__form-box">
             <p class="question__form-title">have any questions?</p>
@@ -826,8 +854,8 @@
             <img class="contact__map" src="images/bg/map.jpg" alt="Map" />
           </div>
         </div>
-      </div>
-      <footer class="footer">
+      </div> -->
+      <!-- <footer class="footer">
         <div class="container">
           <div class="nav">
             <a class="nav__logo" href="#">IC "Repair Design Project"</a>
@@ -855,7 +883,7 @@
             <button class="nav__btn">Request a call</button>
           </div>
         </div>
-      </footer>
+      </footer> -->
     </div>
 
     <script src="js/swiper-bundle.min.js"></script>
