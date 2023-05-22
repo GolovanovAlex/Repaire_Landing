@@ -401,8 +401,6 @@
     justify-content: flex-start;
     align-items: center;
   }
-  &__images {
-  }
   &__images-text {
     max-width: 220px;
     font-size: 18px;
@@ -410,7 +408,110 @@
     color: $color_t_accent;
   }
 }
-// ---- ---- ... ---- ---- //
-
+// ---- ---- gallery ---- ---- //
+.gallery {
+  position: relative;
+  margin-top: 129px;
+  background-image: url(../images/bg/bg_room.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  &__box {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+  }
+  &__left {
+    max-width: 450px;
+  }
+  &__title {
+    font-family: 'Yeseva One';
+    font-size: 27px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: $color_t_accent;
+    padding-top: 137px;
+    margin-bottom: 47px;
+  }
+  &__item {
+    display: flex;
+    font-size: 20px;
+    line-height: 30px;
+    color: $color_white;
+    margin-bottom: 20px;
+    &:hover {
+      color: $color_t_accent;
+      text-decoration: underline;
+    }
+    &:last-child {
+      margin-bottom: 80px;
+    }
+  }
+  &__images-box {
+    position: relative;
+    flex-basis: 750px;
+  }
+  &__images {
+    position: absolute;
+    &:nth-child(1) {
+      top: -42px;
+      left: 0;
+    }
+    &:nth-child(2) {
+      bottom: -44px;
+    }
+    &:nth-child(3) {
+      top: -112px;
+      right: 0;
+    }
+    &:nth-child(4) {
+      bottom: 40px;
+      right: 0;
+    }
+  }
+}
+// ---- ---- clients ---- ---- //
+.clients {
+  &__top {
+  }
+  &__title {
+  }
+  &__icon-box {
+  }
+  &__link {
+  }
+  &__icon {
+  }
+  &__text-title {
+  }
+  &__bottom {
+  }
+  &__item {
+  }
+  &__item-box {
+  }
+  &__img-box {
+  }
+  &__photo {
+  }
+  &__name {
+  }
+  &__text {
+  }
+  &__info {
+  }
+  &__square {
+  }
+  &__square-img {
+  }
+  &__square-info {
+  }
+  &__date {
+  }
+  &__date-img {
+  }
+  &__date-info {
+  }
+}
 // ---- ---- media ---- ---- //
 @import 'media.scss';
