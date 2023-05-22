@@ -306,10 +306,15 @@
 }
 // ---- ---- request ---- ---- //
 .request {
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
-  gap: 50px;
+  .container--wide {
+    max-width: 1920px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 50px;
+    padding: 10px;
+    margin: 0 auto;
+  }
   &__left {
     max-width: 700px;
     background-image: url(../images/bg/bg_contact.png);
@@ -473,7 +478,7 @@
 // ---- ---- clients ---- ---- //
 .clients {
   position: relative;
-  margin-bottom: 380px;
+  margin-bottom: 400px;
   padding-top: 110px;
   &__title {
     text-align: center;
@@ -565,9 +570,9 @@
   }
   &__background {
     position: absolute;
-    bottom: -380px;
+    bottom: -470px;
     width: 50%;
-    height: 505px;
+    height: 350px;
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -671,11 +676,5 @@
     margin: 0 auto;
   }
 }
-// ---- ---- footer ---- ---- //
-.footer {
-  background-color: $color_t_main;
-  padding: 24px 0;
-}
-
 // ---- ---- media ---- ---- //
 @import 'media.scss';

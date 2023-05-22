@@ -7,12 +7,6 @@ $color_t_accent: #e3b873;
 $color_bg_dark: #131313;
 $color_bg_accent: #e3b873;
 $color_t_opacity: rgba(255, 255, 255, 0.3);
-// $color_t_light: #fcfaf6;
-// $color_t_footer-copy: rgba(252, 250, 246, 0.5);
-// $color_bg_light: #f0eedd;
-// $color_bg: #f5f1e9;
-// $color_bg_button: #d37657;
-// $color_bg_slider: #fbf6ea;
 :root {
   --swiper-navigation-size: ;
   --swiper-theme-color: #e3b873;
@@ -116,11 +110,6 @@ body {
     }
   }
 }
-.menu {
-}
-// ---- ---- btn ---- ---- //
-.button {
-}
 // ---- ---- form ---- ---- //
 .form {
   &__lable {
@@ -171,8 +160,7 @@ body {
     accent-color: $color_bg_accent;
     cursor: pointer;
   }
-  &__checkbox-agree {
-  }
+
   &__btn {
     width: 100%;
     max-width: 200px;
@@ -191,4 +179,6 @@ body {
 }
 // ---- ---- footer ---- ---- //
 .footer {
+  background-color: $color_t_main;
+  padding: 24px 0;
 }
