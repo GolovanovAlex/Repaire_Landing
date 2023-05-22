@@ -472,45 +472,95 @@
 }
 // ---- ---- clients ---- ---- //
 .clients {
-  &__top {
-  }
+  margin-bottom: 500px;
+  padding-top: 110px;
   &__title {
+    text-align: center;
+    color: #181818;
   }
   &__icon-box {
-  }
-  &__link {
-  }
-  &__icon {
+    text-align: center;
+    margin-bottom: 24px;
   }
   &__text-title {
+    max-width: 400px;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: $color_t_grey;
+    text-align: center;
+    margin: 0 auto 39px;
   }
   &__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 54px;
   }
   &__item {
+    position: relative;
+    max-width: 430px;
+    background: $color_white;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+    padding: 24px 31px 60px 20px;
   }
   &__item-box {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    margin-bottom: 23px;
   }
   &__img-box {
+    display: flex;
   }
   &__photo {
+    border-radius: 50%;
   }
   &__name {
+    max-width: 170px;
+    font-family: 'Yeseva One';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    color: $color_t_main;
   }
   &__text {
+    max-width: 320px;
+    font-size: 13px;
+    line-height: 24px;
+    color: $color_t_info;
+    margin-bottom: 12px;
   }
   &__info {
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    font-family: 'Yeseva One';
+    font-size: 17px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: $color_white;
+    background: $color_bg_accent;
+    box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
   }
   &__square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    padding: 11px;
+    border-right: 1px solid $color_white;
   }
-  &__square-img {
-  }
-  &__square-info {
-  }
+
   &__date {
-  }
-  &__date-img {
-  }
-  &__date-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 11px;
   }
 }
 // ---- ---- media ---- ---- //
