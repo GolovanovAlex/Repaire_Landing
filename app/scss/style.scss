@@ -579,6 +579,12 @@
 }
 // ---- ---- contact ---- ---- //
 .contact {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.9) 3.47%,
+    rgba(0, 0, 0, 0.7) 100%
+  );
+  background-color: $color_t_main;
   position: relative;
   background-position: center left;
   background-repeat: no-repeat;
@@ -627,8 +633,6 @@
   max-width: 883px;
   background-color: $color_t_main;
   padding: 34px;
-  &__form-box {
-  }
   &__form-title {
     font-family: 'Yeseva One';
     font-size: 20px;
