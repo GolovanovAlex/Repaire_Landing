@@ -460,7 +460,7 @@
           </div>
         </div>
       </section>
-      <!-- <div class="request">
+      <div class="request">
         <div class="container--wide">
           <div class="request__left">
             <ol class="request__list">
@@ -556,8 +556,8 @@
             </div>
           </div>
         </div>
-      </div> -->
-      <!-- <div class="gallery">
+      </div>
+      <div class="gallery">
         <div class="container">
           <div class="gallery__box">
             <div class="gallery__left">
@@ -597,8 +597,8 @@
             </div>
           </div>
         </div>
-      </div> -->
-      <!-- <section class="clients">
+      </div>
+      <section class="clients">
         <div class="container">
           <div class="clients__top">
             <h4 class="clients__title title title__h4">our clients</h4>
@@ -751,8 +751,8 @@
           class="clients__background clients__background--right"
           style="background-image: url(images/bg/bg_client_2.png)"
         ></div>
-      </section> -->
-      <!-- <div class="contact" style="background-image: url(images/bg/bg_map2.png)">
+      </section>
+      <div class="contact" style="background-image: url(images/bg/bg_map2.png)">
         <div class="question">
           <div class="question__form-box">
             <p class="question__form-title">have any questions?</p>
@@ -828,9 +828,10 @@
         <div class="container">
           <div class="contact__adress-box">
             <p class="contact__adress">
-              Rostov-on-Don, Nansen St., 239 Shopping Center Decorum Tel
-              <a class="contact__phone" href="tel:+79287683229"
-                >+7 (928) 768 32 29</a
+              Rostov-on-Don, Nansen St., 239 Shopping Center Decorum<a
+                class="contact__phone"
+                href="tel:+79287683229"
+                >Tel +7 (928) 768 32 29</a
               >
             </p>
             <div class="contact__media-box">
@@ -851,11 +852,17 @@
             </div>
           </div>
           <div class="contact__map-box">
-            <img class="contact__map" src="images/bg/map.jpg" alt="Map" />
+            <picture>
+              <source
+                srcset="images/bg/map_mobile.jpg"
+                media="(max-width: 550px)"
+              />
+              <img class="contact__map" src="images/bg/map.jpg" alt="Map" />
+            </picture>
           </div>
         </div>
-      </div> -->
-      <!-- <footer class="footer">
+      </div>
+      <footer class="footer">
         <div class="container">
           <div class="nav">
             <a class="nav__logo" href="#">IC "Repair Design Project"</a>
@@ -883,7 +890,7 @@
             <button class="nav__btn">Request a call</button>
           </div>
         </div>
-      </footer> -->
+      </footer>
     </div>
 
     <script src="js/swiper-bundle.min.js"></script>
