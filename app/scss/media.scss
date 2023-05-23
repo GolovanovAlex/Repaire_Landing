@@ -1,11 +1,9 @@
 // ---- ---- media ---- ---- //
-
 @media (max-width: 2000px) {
   .request__list {
     margin-left: 100px;
   }
 }
-
 @media (max-width: 1250px) {
   .gallery__left {
     max-width: 250px;
@@ -139,7 +137,6 @@
     width: 100%;
   }
 }
-
 @media (max-width: 750px) {
   .gallery {
     display: none;
@@ -461,7 +458,6 @@
     display: none;
   }
 }
-
 @media (max-width: 420px) {
   .types {
     &__icon-box {
