@@ -17,3 +17,9 @@ const swiper2 = new Swiper('.projects__swiper', {
     swiper: swiper,
   },
 });
+const swiperGallery = new Swiper('.gallery-swiper', {
+  navigation: {
+    nextEl: '.swiper-button-next-gallery',
+    prevEl: '.swiper-button-prev-gallery',
+  },
+});

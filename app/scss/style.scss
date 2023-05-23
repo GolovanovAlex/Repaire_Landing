@@ -484,6 +484,21 @@
     }
   }
 }
+.gallery-swiper__box {
+  position: relative;
+  display: none;
+}
+.gallery-swiper__box-title {
+  max-width: 250px;
+  font-family: 'Yeseva One';
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: $color_t_accent;
+  margin: 0 auto 24px;
+}
 // ---- ---- clients ---- ---- //
 .clients {
   position: relative;

@@ -9,4 +9,4 @@ FIGMA | Макеты для верстки.
 https://t.me/s/FigmaToHTML
 
 /* SITE */ 
-Last update: 2023/05/12.
+Last update: 2023/05/23.
